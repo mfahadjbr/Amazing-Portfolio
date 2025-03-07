@@ -26,7 +26,7 @@ export default function HeroSection() {
         <div className="flex items-center justify-between mb-10">
           <div className="flex items-center">
             <div className="w-3 h-3 rounded-full bg-gray-400 dark:bg-gray-600 mr-2"></div>
-            <span className="text-gray-500 dark:text-gray-400 font-medium">Product Designer</span>
+            <span className="text-gray-500 dark:text-gray-400 font-medium">Full Stack Developer</span>
           </div>
           <Link href="/contact">
             <div className="flex px-4 py-1 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full text-sm font-medium items-center hover:bg-green-200 dark:hover:bg-green-900/50 transition-colors cursor-pointer">
@@ -46,7 +46,7 @@ export default function HeroSection() {
             </h1>
             <p className="text-xl text-[#35384a] dark:text-gray-300 mb-8">
               Full Stack Developer from Pakistan.
-              <br /> Currently working at Next.js,Crewai,Landchain,LandGraph.
+              <br /> Currently working at Next.js,Crewai,Langchain,LangGraph.
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">

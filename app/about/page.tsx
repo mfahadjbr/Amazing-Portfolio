@@ -36,7 +36,7 @@ export default function AboutPage() {
               <div className="rounded-3xl border-gray-300 dark:border-gray-600 p-1">
                 <div className="rounded-3xl overflow-hidden bg-gray-100 dark:bg-gray-800 w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px]">
                   <Image
-                    src="/about.png"
+                    src="/fahad.jpg"
                     alt="Muhammad Fahad Jabbar"
                     width={1200}
                     height={1200}
