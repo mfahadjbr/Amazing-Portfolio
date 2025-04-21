@@ -1,8 +1,22 @@
 import { Bot, BrainCircuit, FileText, Type} from "lucide-react"
-import { FaMapMarkedAlt, FaTools } from "react-icons/fa"
+import { FaBriefcase, FaCoffee, FaMapMarkedAlt, FaTools } from "react-icons/fa"
 import { MdLocalGroceryStore } from "react-icons/md"
 
 export const projects = [
+  {
+    id: "Coffee-House-Website",
+    company: "Coffee House Website",
+    type: ["Next.js", "Tailwind CSS"],
+    iconBg: "#B26336",
+    icon: <FaCoffee   className="w-6 h-6" />,
+  },
+  {
+    id: "Job_Interview_Application",
+    company: "Job Interview Application",
+    type: ["Next.js", "Tailwind CSS", "Vapi"],
+    iconBg: "#5C888E",
+    icon: <FaBriefcase  className="w-6 h-6" />,
+  },
   {
     id: "Medical-Rag-Application",
     company: "Medical Rag Application",

@@ -5,6 +5,36 @@ import ProjectCarousel from "@/components/project-carousel";
 
 const projects = [
   {
+    id: "Coffee-House-Website",
+    name: "Coffee House Website",
+    description:
+      "Coffee House is a cozy online café experience, offering a stylish and modern layout with smooth scrolling and elegant visuals. Designed with aesthetic appeal, it features handcrafted sections that highlight premium coffee blends, cozy ambiance, and customer-friendly service—all wrapped in a sleek, inviting user interface.",
+    longDescription:
+      "Coffee House is a beautifully designed website that brings the warm, cozy feeling of your favorite café to life online. With a clean, modern layout and smooth animations, it captures the essence of premium coffee culture. Visitors can explore elegant sections featuring rich imagery, inviting colors, and detailed information about high-quality blends and cozy ambiance. Whether you're a coffee enthusiast or just someone who loves good vibes, this site offers a visually pleasing and intuitive experience. It’s not just about coffee—it’s about community, comfort, and connection, all delivered through a seamless and user-friendly interface.",
+    categories: ["Visual design", "Branding"],
+    websiteUrl: "https://coffee-house-silk.vercel.app/",
+    images: [
+      "/coffee.png",
+      "/coffee6.png",
+      "/coffee9.png",
+    ],
+  },
+  {
+    id: "Job_Interview_Application",
+    name: "Job Interview Application",
+    description:
+      "Job Interview Application is a smart tool designed to help candidates prepare for job interviews. It offers practice questions, AI-generated feedback, mock interviews, and personalized tips. This application enhances confidence, improves communication skills, and increases the chances of success in real interviews through interactive and tailored preparation experiences.",
+    longDescription:
+      "Job Interview Application is an AI-powered platform designed to help job seekers prepare effectively for interviews. It provides a wide range of features including mock interviews, commonly asked questions across industries, AI-generated feedback, and performance analytics. Users can simulate real interview environments, receive personalized tips to improve communication and confidence, and track their progress over time. Whether you're a fresh graduate or an experienced professional, this application adapts to your goals and experience level. With intuitive design and intelligent assistance, it empowers users to face interviews with confidence and land their dream jobs.",
+    categories: ["Visual design", "Branding"],
+    websiteUrl: "https://job-interview-application.vercel.app/",
+    images: [
+      "/job_application.png",
+      "/pro.png",
+      "/job_application.png",
+    ],
+  },
+  {
     id: "Medical-Rag-Application",
     name: "Medical Rag Application",
     description:

@@ -4,18 +4,18 @@ import { cn } from "@/lib/utils"
 
 const projects = [
   {
+    id: "Job_Interview_Application",
+    name: "Job Interview Application",
+    categories: ["Next.js", "Tailwind CSS", "Vapi"],
+    initial: "J",
+    bgColor: "bg-[#00214C]",
+  },
+  {
     id: "Medical-Rag-Application",
     name: "Medical Rag Application",
     categories: ["Next.js", "LangChain", "Streamlit"],
     initial: "M",
     bgColor: "bg-green-500",
-  },
-  {
-    id: "Basketball-Website",
-    name: "Basketball Website",
-    categories: ["Next.js", "Tailwind CSS"],
-    initial: "R",
-    bgColor: "bg-[#CC72F9]",
   },
   {
     id: "Agentia-World-Website",
