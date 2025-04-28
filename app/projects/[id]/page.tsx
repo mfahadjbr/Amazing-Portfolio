@@ -42,7 +42,7 @@ const projects = [
     longDescription:
       "The Medical RAG Application is a full-stack web-based platform built with Next.js and TypeScript, designed to assist healthcare professionals and patients with accurate and context-aware medical information retrieval. The system leverages Retrieval-Augmented Generation (RAG) to enhance responses by integrating Google Gemini API, Hugging Face models, or a custom RAG approach.The application provides precise and up-to-date medical insights by fetching reliable data from medical research, articles, and trusted sources, ensuring users get fact-based responses rather than generic AI-generated answers. Users can input queries related to diseases, symptoms, treatments, and medications, and the AI-powered engine will deliver relevant, well-referenced responses.With a user-friendly UI, authentication, and a scalable backend, the platform ensures security, efficiency, and accessibility. This AI-driven solution revolutionizes medical knowledge retrieval, aiding both professionals and general users in making informed healthcare decisions.",
     categories: ["Visual design", "Branding"],
-    websiteUrl: "https://medical-rag-application-1.vercel.app/",
+    websiteUrl: "https://medical-rag-website.vercel.app/",
     images: [
       "/project1(3image).png",
       "/project1.png",
