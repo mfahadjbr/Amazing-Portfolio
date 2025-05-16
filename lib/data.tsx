@@ -1,8 +1,15 @@
 import { Bot, BrainCircuit, FileText, Type} from "lucide-react"
-import { FaBriefcase, FaCoffee, FaMapMarkedAlt, FaTools } from "react-icons/fa"
+import { FaBriefcase, FaCoffee, FaGraduationCap, FaMapMarkedAlt, FaTools } from "react-icons/fa"
 import { MdLocalGroceryStore } from "react-icons/md"
 
 export const projects = [
+   {
+    id: "Dev_Learning_Platform",
+    company: "Dev Learning Platform",
+    type: ["Next.js", "Tailwind CSS", "FastAPI"],
+    iconBg: "#5C888E",
+    icon: <FaGraduationCap className="w-6 h-6" />,
+  },
   {
     id: "Coffee-House-Website",
     company: "Coffee House Website",

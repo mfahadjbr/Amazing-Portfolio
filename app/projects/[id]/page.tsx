@@ -5,6 +5,21 @@ import ProjectCarousel from "@/components/project-carousel";
 
 const projects = [
   {
+    id: "Dev_Learning_Platform",
+    name: "Dev Learning Platform",
+    description:
+      "The Dev Learning Platform is a comprehensive online learning hub designed for developers. It offers a wide range of courses, tutorials, and resources to enhance coding skills and knowledge in various programming languages and technologies.",
+    longDescription:
+      "The Dev Learning Platform is a comprehensive online learning hub designed for developers. It offers a wide range of courses, tutorials, and resources to enhance coding skills and knowledge in various programming languages and technologies. The platform features interactive lessons, hands-on projects, quizzes, and community forums to foster collaboration and knowledge sharing among learners. With a user-friendly interface and personalized learning paths, it caters to beginners and experienced developers alike, making it an ideal destination for anyone looking to advance their career in tech.",
+    categories: ["Next.js", "Tailwind CSS", "FastAPI"],
+    websiteUrl: "https://dev-learning-platform.vercel.app/",
+    images: [
+      "/dev.png",
+      "/dev1.png",
+      "/dev2.png",
+    ],
+  },
+  {
     id: "Coffee-House-Website",
     name: "Coffee House Website",
     description:

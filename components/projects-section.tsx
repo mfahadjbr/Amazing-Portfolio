@@ -4,6 +4,13 @@ import { cn } from "@/lib/utils"
 
 const projects = [
   {
+    id: "Dev_Learning_Platform",
+    name: "Dev Learning Platform",
+    categories: ["Next.js", "Tailwind CSS", "FastAPI"],
+    initial: "D",
+    bgColor: "bg-[#5C888E]",
+  },
+  {
     id: "Job_Interview_Application",
     name: "Job Interview Application",
     categories: ["Next.js", "Tailwind CSS", "Vapi"],
@@ -16,14 +23,7 @@ const projects = [
     categories: ["Next.js", "LangChain", "Streamlit"],
     initial: "M",
     bgColor: "bg-green-500",
-  },
-  {
-    id: "Agentia-World-Website",
-    name: "Agentia World Website",
-    categories: ["Next.js", "CrewAI", "LangChain"],
-    initial: "S",
-    bgColor: "bg-[#5C888E]",
-  },
+  }
 ]
 
 export default function ProjectsSection() {
